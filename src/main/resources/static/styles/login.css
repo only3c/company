@@ -1,0 +1,151 @@
+body {
+	width:1075px;
+	margin:0 auto;
+}
+
+.main {
+	height: 533px;
+	width: 1075px;
+/* 	widht:100% */
+	background: url('../images/login/main_bg.png') no-repeat;
+}
+
+.main .title {
+	font: bold 40px "幼圆" ;
+	text-align: center;
+	color: #1870af;
+	letter-spacing: 8px;
+	height: 60px;
+	width: 1075px;
+	margin: 0px;
+	padding: 45px 0px 15px 0px;
+}
+
+.main .loginarea {
+/* 	background-image: url('../images/login/input_bg.png'); */
+	height: 287px;
+	width: 388px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 100px;
+	position: relative;
+}
+.main .loginarea .aera-mid {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	width:280px;
+	margin-left:50px;
+	margin-top:80px;
+}
+.main .loginarea .aera-mid p.input-line {
+	margin: 8px 0px 5px 0px;
+	*margin: 8px 0px 5px 0px; /*ie7*/
+	_margin: 8px 0px 5px 0px; /*ie6*/
+	zoom: 1;
+}
+.main .loginarea .aera-mid p .text-caption {
+	float:left;
+	height:26px;
+	line-height:26px;
+}
+.main .loginarea .aera-mid p .text-input {
+	border:1px solid #CCCCCC;
+	height:20px;
+	line-height:20px;
+	padding:2px 3px 2px 3px;
+	width:205px;
+	float:right;
+}
+.main .loginarea .aera-mid p .text-chknum {
+	border:1px solid #CCCCCC;
+	height:20px;
+	line-height:20px;
+	padding:2px 3px 2px 3px;
+	width:100px;
+	float:left;
+	margin:0 7px;
+}
+.main .loginarea .aera-mid p.checkbox-all {
+	font-size: 13px;
+	padding-left:80px;
+	margin:0px auto 0px auto;
+}
+.main .loginarea .aera-mid p.login-p {
+	padding-left:80px;
+	margin:0px auto 0px auto;
+}
+.login-but {
+/* 	background-image:url('../images/login/button_normal.png'); */
+	height:32px;
+	width:123px;
+	color: #FFFFFF;
+	background-color:#0099CC;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+}
+.login-but:hover {
+/* 	background-image:url('../images/login/button_hover.png'); */
+	height:32px;
+	width:123px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+}
+.login-but:active {
+/* 	background-image:url('../images/login/button_down.png'); */
+	height:32px;
+	width:123px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+}
+.clearfix:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	line-height:0;
+}
+.highlight {
+	border:1px solid #7ABD54 !important;
+}
+#warningmsg {
+	text-align:center;
+	color:red;
+	height:18px;
+	margin:3px auto 0px auto;
+	line-height:18px;
+}
+.loading-bar {
+	z-index:9999;
+	left:20px;
+	top:20px;
+	width:348px;
+	height:247px;
+	position:absolute;
+	display:none;
+}
+.loading-bar .loading-bg {
+	width:100%;
+	height:100%;
+	background-color:white;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity:0.5;
+}
+.loading-bar .loading-icon {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:url('../images/login/loading.gif') no-repeat center;
+}

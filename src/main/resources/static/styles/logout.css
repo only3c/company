@@ -1,0 +1,76 @@
+.main-area {
+	margin: 0 auto;
+	width: 800px;
+	height: 450px;
+	background: url(../images/login/logout_bg.png) no-repeat left bottom;
+}
+
+.main-area .input-line {
+	text-align: center;
+}
+
+.clearfix:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	line-height:0;
+}
+
+.logo {
+	border: 0px;
+}
+
+.text-area {
+	width: 500px;
+	float: right;
+	padding-top: 10px;
+}
+
+.tbl-msg {
+	width: 500px;
+	font-family: '宋体';
+	text-align: center;
+}
+
+.tbl-msg .mstitle {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.tbl-msg .desc {
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.tbl-msg .action {
+	padding-top: 20px;
+}
+
+.tbl-msg p.act{
+	padding-top: 15px;
+}
+
+.tbl-msg span.center{
+	margin-left: 50px;
+}
+
+a.xlink:link{
+	color: #00f;
+	text-decoration: none;
+}
+
+a.xlink:hover{
+	color: #999;
+	text-decoration: none;
+}
+
+a.xlink:visited{
+	color: #00f;
+	text-decoration: none;
+}

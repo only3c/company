@@ -1,0 +1,221 @@
+/*
+ * ******************************************************************************
+ *  jquery.mb.components
+ *  file: menu_red.css 
+ *
+ *  Copyright (c) 2001-2013. Matteo Bicocchi (Pupunzi);
+ *  Open lab srl, Firenze - Italy
+ *  email: matteo@open-lab.com
+ *  site: 	http://pupunzi.com
+ *  blog:	http://pupunzi.open-lab.com
+ * 	http://open-lab.com
+ *
+ *  Licences: MIT, GPL
+ *  http://www.opensource.org/licenses/mit-license.php
+ *  http://www.gnu.org/licenses/gpl.html
+ *
+ *  last modified: 02/10/13 22.42
+ *  *****************************************************************************
+ */
+
+.mbmenu{
+  display:none;
+}
+.rootVoices{
+  height:30px;
+}
+.rootVoices td.rootVoice {
+  vertical-align:middle;
+  font:14px/100% Arial,Lucida,Verdana,"微软雅黑",Helvetica,sans-serif;
+  color:white;
+  font-size:14px;
+  height:30px;
+  line-height:30px;
+  cursor: pointer;
+}
+
+.rootVoices td.rootVoice.selected{
+	background:url(../images/menu/three_1.gif) repeat-x;
+	color:#ffffff;
+	cursor: pointer;
+	font-size:14px;
+}
+
+.rootVoices td.rootVoice:hover{
+    background:url(../images/menu/three_1.gif) repeat-x;
+    color:#ffffff;
+}
+
+.rootVoices td.rootVoice.disabled.selected{
+  background:#f9f9f9!important;
+  color:#eeeded;
+}
+
+
+
+.rootVoices.vertical { 
+	width:140px;
+}
+.rootVoices.vertical td.rootVoice{
+	-moz-border-radius:8px 0px 0 8px;
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:8px;
+}
+
+.menuShadow{
+	padding:2px;
+	padding-bottom:0px;
+	left:-2px;
+	top:1px;
+}
+
+.menu{
+      display:none;
+    }
+.menuContainer{
+  /*overflow:hidden;*/
+  position:absolute;
+	background-color:#f7f7f7;
+  /*border-top:5px solid #B23305;*/
+	padding:0;
+	border: #eae9e9 solid 1px;
+}
+.menuContainer.submenuContainer{
+  /*border-top:none!important;*/
+}
+
+.menuContainer.disabled{
+  border-top:5px solid #f9f9f9;
+  background-color: #f7f7f7;
+}
+.menuContainer .line{
+	background-color:transparent;
+	width:100%;
+}
+.menuContainer .line.title {
+	background-color:#B23305;
+	font-size:14px;
+/*border-bottom:1px solid black;*/
+}
+.menuContainer.disabled .line.title {
+  background-color: #f9f9f9;
+}
+.menuContainer .line.title a{
+	font-size:14px;
+  color:#FFF;
+}
+.menuContainer.disabled .line.title a{
+  font-size:14px;
+  color:#eeeded;
+}
+.menuContainer td a{
+	text-decoration:none;
+	color: #666;
+}
+.menuContainer td.voice{
+	padding:4px 8px;
+}
+.menuContainer .separator{
+	background-color:#eeeded;
+	height:1px;
+    padding:0;
+    margin:0;
+}
+.menuContainer td.img{
+	text-align:center;
+	font-size:14px;
+	color: #eeeded;
+	background-color:transparent;
+	width:24px;
+	padding:5px;
+}
+.menuContainer td.img img{
+	width:20px;
+}
+.menuContainer .textBox{
+	padding: 10px;
+	color: #eeeded;
+}
+.menuContainer .selected td{
+	background-color:#09F;
+	/*background-image:url("../images/menu/bgnd_sel_2.jpg")*/
+}
+.menuContainer .selected td a{
+	color:#000;
+  display:block;  
+}
+.menuContainer .disabled td, .menuContainer .disabled td a {
+  color:#bbb;
+}
+.menuContainer .subMenuOpener{
+	background-image:url("../images/menu/menuArrow.gif");
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.menuContainer .selected .subMenuOpener{
+	background-image:url("../images/menu/menuArrow.gif");
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+/*BOX MENU*/
+
+.boxMenu{
+  color:#eeeded;
+  background:url("../images/menu/box_top.png") repeat-x;
+}
+.boxMenu h4{
+  white-space:nowrap;
+  margin:0 0 20px 0;
+  padding:3px;
+  padding-right:20px;
+}
+
+.boxMenu td{
+  min-width:160px;
+  vertical-align:top;
+  border-right:1px solid #999;
+}
+
+.boxMenu td:hover{
+  background:#f7f7f7;
+}
+
+.boxMenu td:hover a{
+  margin-right:3px;
+  color:#000;
+}
+
+.boxMenu td:last-child{
+  min-width:160px;
+  vertical-align:top;
+  border-right:none;
+}
+
+.boxMenu a{
+  font-size:14px;
+  white-space:nowrap;
+  display:block;
+  padding:5px;
+  margin-bottom:5px;
+}
+
+.boxMenu a img{
+  padding-right:5px;
+}
+
+.boxMenu a:hover{
+  color:#000;
+  background-image:url("../images/menu/bgnd_sel_2.jpg");
+}
+
+.boxMenu a img{
+  border:0;
+}
+
+#mainmenu {
+	height:30px;
+	background:url(../images/menu/three_0.gif) repeat-x;
+}
